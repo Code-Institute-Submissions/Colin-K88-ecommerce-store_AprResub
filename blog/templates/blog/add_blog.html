@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+<h1 style="text-align: center;">Add a blog</h1>
+<br><br>
+<div class="container">
+<div class="form-group"
+    <form method="Post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button>Post</button>
+    </div>
+</div>
+	{% endblock %}
