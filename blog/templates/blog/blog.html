@@ -15,12 +15,15 @@
     <h1>Posts</h1>
     <a href = "{% url 'add_blog' %}">add blog</a><br>
 </div>
-
+<ul>
     {% for post in object_list %}
-    <a href = "{% url 'blog_detail' post.pk %}">{{ post.title }}</a><br>
+    <li><a href = "{% url 'blog_detail' post.pk %}">{{ post.title }}</a><br>
     {{ post.intro }}<br>
     {{ post.body }}<br>
     {{ post.date_added }}
+    <a href = "{% url 'update_blog' post.pk %}">Update</a><br></li><br><br>
+    <a href = "{% url 'delete_blog' post.pk %}">Delete</a><br></li>
+</ul>
 </div>
     
 

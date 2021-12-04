@@ -10,12 +10,13 @@
 {% endblock %}
 
 {% block content %}
-<h1 style="text-align: center;">Add a blog</h1>
+<h1 style="text-align: center;">Delete  Blog</h1>
 <br><br>
+<h1>Delete: {{ post.title }}</h1><br/>
 <div class="container form-group">
     <form method="Post">
         {% csrf_token %}
-        {{ form.as_p }}
-        <button>Post</button>
+        <strong>Are you sure??</strong><br><br/>
+        <button>Delete</button>
 </div>
 	{% endblock %}
