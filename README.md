@@ -1,108 +1,231 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+<h1 align="center">Jewellery Store Website</h1>
 
-Welcome Colin-K88,
+[View the live project here.](https://codeinstitute.net)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+This is the main marketing website for Code Institute. It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential students and partners.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+<h2 align="center"><img src="https://i.ibb.co/TYvTXz1/Example-CI.png"></h2>
 
-## Gitpod Reminders
+## User Experience (UX)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+-   ### User stories
 
-`python3 -m http.server`
+    -   #### First Time Visitor Goals
 
-A blue button should appear to click: _Make Public_,
+        1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the company.
+        2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
+        3. As a First Time Visitor, I would like a blog/review page to see what other people think of the products.
+        4. As a First Time Visitor, I want an easy clean safe way to purchase items.
+        5. As a First Time Visitor, I want to be able to create and account.
 
-Another blue button should appear to click: _Open Browser_.
+    -   #### Returning Visitor Goals
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+        1. As a Returning Visitor, I want the website to stay consistent in terms of of feel and navigation.
+        2. As a Returning Visitor, I want to have a way to contact the company in case there is issues with a previous order or a general inquiry.
+        3. As a Returning Visitor, I want to be able to easily login to my account.
+        
+    -   #### Frequent User Goals
+        1. As a Frequent User, I want to have full and easy access to my account inlcuding being able to delete my account.
+        2. As a Frequent User, I want to check to see if there are any new blog posts.
+        3. As a Frequent User, I want to be able to add my own blog posts and keep up to date with the community.
 
-A blue button should appear to click: _Make Public_,
+-   ### Design
+    -   #### Colour Scheme
+        -   The two main colours used are black and white.
+    -   #### Typography
+        -   
+    -   #### Imagery
+        -   Imagery is important. The large, background hero image is designed to to match the aesthetic of the company and provide a clean stylish look.
 
-Another blue button should appear to click: _Open Browser_.
+*   ### Wireframes
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+    -   Home Page Wireframe - [View](https://github.com/)
 
-To log into the Heroku toolbelt CLI:
+    -   Mobile Wireframe - [View](https://github.com/)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+    -   Contact Us Page Wireframe - [View](https://github.com/)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+## Features
 
-------
+-   Responsive on all device sizes
 
-## Release History
+-   Create profile.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+-   Add blog posts and interact with the community.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+## Technologies Used
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+### Languages Used
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+-   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+-   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+### Frameworks, Libraries & Programs Used
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+    - Bootstrap was used to assist with the responsiveness and styling of the website.
+1. [Font Awesome:](https://fontawesome.com/)
+    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+1. [jQuery:](https://jquery.com/)
+    - jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
+1. [Git](https://git-scm.com/)
+    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+1. [GitHub:](https://github.com/)
+    - GitHub is used to store the projects code after being pushed from Git.
+1. [Balsamiq:](https://balsamiq.com/)
+    - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+### Lighthouse Testing 
+![Alt text](media/lighthouseTest1.png)
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+![Alt text](media/lighthouseTest2.png)
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+### Validation Testing 
+![Alt text](media/validatorTest1.png)
+![Alt text](media/validatorTest2.png)
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+![Alt text](media/validatorTest3.png)
+![Alt text](media/validatorTest4.png)
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+![Alt text](media/jstest1.png)
+![Alt text](media/jstest2.png)
+![Alt text](media/jstest3.png)
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### Testing User Stories from User Experience (UX) Section
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+-   #### First Time Visitor Goals
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+    1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the company.
 
-------
+        1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image.
+        2. The main points are made immediately with the hero image
+        3. The user can view the blog or enter the contact page from the buttons on the hero image or they can browse products clearly seen in the navbar.
 
-## FAQ about the uptime script
+    2. As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
 
-**Why have you added this script?**
+        1. As this is a small hancrafted jewellery store users can see all products available in the navbar as well as the option to view all products. A search bar is also included to help navigation.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+    3. As a First Time Visitor, I would like a blog/review page to see what other people think of the products.
+        1. The blog page is located on a button from the hero image where users can click and view blogs from other site users. They also have the option to post their own blog once registered.
 
-**How will this affect me?**
+    4. As a First Time Visitor, I want an easy clean safe way to purchase items.
+        1. Secure and clean and easy readable checkout is provided for users when purchasing an item.
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+    5. As a First Time Visitor, I want to be able to create and account.
+        1. This can be done and seen easiy above the nav with the account option which uses font imagery to clearly show users where this feature is located.
+    
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+-   #### Returning Visitor Goals
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+    1. As a Returning Visitor, I want the website to stay consistent in terms of of feel and navigation.
 
-**So….?**
+        1. Site stays consistant with aesthetic and color scheme throughout with select pages keeping the stylish hero image while others like checkout pages do not as to keep these features more simple and clean.
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+    2. As a Returning Visitor, I want to have a way to contact the company in case there is issues with a previous order or a general inquiry.
 
-**Can I opt out?**
+        1. Clearly located on the hero image of the home page is a "Contact Us" for user support.
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+    3. As a Returning Visitor, I want to be able to easily login to my account.
+        
+        1. Account feature stays consistent throughout the site and is easily seen using font imagery.
+
+-   #### Frequent User Goals
+
+    1. As a Frequent User, I want to have full and easy access to my account inlcuding being able to delete my account.
+
+        1. All can be done through the account feature and is easy to follow steps needed to perform any task.
+
+    2. As a Frequent User, I want to check to see if there are any new blog posts.
+
+        1. The blog button is located on the hero image and is updated by date of all new blogs posted.
+
+    3. As a Frequent User, I want to be able to add my own blog posts and keep up to date with the community.
+
+        1. This can be done via the add blog feature shown on the blog page.
+
+## Deployment
+
+### GitHub Pages
+
+The project was deployed to GitHub Pages using the following steps...
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+    - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
+3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+4. Under "Source", click the dropdown called "None" and select "Master Branch".
+5. The page will automatically refresh.
+6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
+
+### Forking the GitHub Repository
+
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+3. You should now have a copy of the original repository in your GitHub account.
+
+### Making a Local Clone
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. Under the repository name, click "Clone or download".
+3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+4. Open Git Bash
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type `git clone`, and then paste the URL you copied in Step 3.
 
 ```
-pkill uptime.sh
-rm .vscode/uptime.sh
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 ```
 
-**Anything more?**
+7. Press Enter. Your local clone will be created.
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+```
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+> Cloning into `CI-Clone`...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.
+```
 
----
+Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
 
-Happy coding!
+### Heroku
+
+1. Install PostgreSQL support: pip3 install psycopg2-binary and pip3 install dj-database-url.
+2. Update the Heroku requirements file: pip3 freeze > requirements.txt
+3. Add PostgreSQL add-on on Heroku under Application -> Resources -> Add-ons: Heroku Postgres (free / hobby tier). Heroku adds a DATABASE_URL variable under Application -> Settings -> Config Vars. Copy this URL.
+4. Add the URL to the ‘.env’ file: DATABASE_URL=<Database URL>. Update ‘settings.py’.
+5. Migrate the Django Models to the PostgreSQL Database:.
+6. Update the allowed hosts in ‘settings.py’: ALLOWED_HOSTS = [os.environ.get('ALLOWED_HOSTS')].
+7. VS Code: Create the commit message. Changes -> Stage All Changes, Commit -> Commit All, Push.
+
+
+
+## Credits
+
+### Code
+
+-   The full-screen hero image code came from this [StackOverflow post](https://stackoverflow.com)
+
+-   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
+
+-   [MDN Web Docs](https://developer.mozilla.org/) : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found [Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#Pattern_validation)
+
+### Content
+
+-   All content was written by the developer.
+
+-   Psychological properties of colours text in the README.md was found [here](http://www.colour-affects.co.uk/psychological-properties-of-colours)
+
+### Media
+
+-   All Images were created by the developer.
+
+### Acknowledgements
+
+-   My Mentor for continuous helpful feedback.
+
+-   Tutor support at Code Institute for their support.

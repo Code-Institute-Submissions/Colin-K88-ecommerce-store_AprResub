@@ -12,17 +12,25 @@
 {% block content %}
 <div class="container pt-3">
     <div class="page-header">
-    <h1>Posts</h1>
-    <a href = "{% url 'add_blog' %}">add blog</a><br>
-</div>
-<ul>
+    <h1 style="text-align: center;">Posts</h1>
+    <div style="text-align: center">
+        <a href="{% url 'add_blog' %}" class="shop-now-button btn btn-lg rounded-circle text-uppercase py-3">Add Blog</a>
+    </div>
+</div><br><br>
+<ul style="text-align: center;">
     {% for post in object_list %}
     <li><a href = "{% url 'blog_detail' post.pk %}">{{ post.title }}</a><br>
     {{ post.intro }}<br>
     {{ post.body }}<br>
-    {{ post.date_added }}
-    <a href = "{% url 'update_blog' post.pk %}">Update</a><br></li><br><br>
-    <a href = "{% url 'delete_blog' post.pk %}">Delete</a><br></li>
+    {{ post.date_added }}<br><br>
+    {% if user.is_authenticated %}
+
+        <a href = "{% url 'update_blog' post.pk %}">Update</a><br></li>
+        <a href = "{% url 'delete_blog' post.pk %}">Delete</a><br></li>
+    
+   
+    {% endif %}
+ 
 </ul>
 </div>
     

@@ -3,7 +3,7 @@ from django.views.generic import ListView, DetailView, CreateView, UpdateView, D
 from .models import Post
 from .forms import PostForm
 from django.urls import reverse_lazy
-
+from django.contrib.auth.decorators import login_required
 
 #def blog(request):
 #   return render(request, 'blog/blog.html', {})
