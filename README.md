@@ -1,10 +1,6 @@
 <h1 align="center">Jewellery Store Website</h1>
 
-[View the live project here.](https://codeinstitute.net)
-
-This is the main marketing website for Code Institute. It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential students and partners.
-
-<h2 align="center"><img src="https://i.ibb.co/TYvTXz1/Example-CI.png"></h2>
+This is a hypothetical site for an individual hancrafted jewellery store.
 
 ## User Experience (UX)
 
@@ -39,12 +35,11 @@ This is the main marketing website for Code Institute. It is designed to be resp
 
 *   ### Wireframes
 
-    -   Home Page Wireframe - [View](https://github.com/)
+    - [Desktop](media/Desktop.png)
 
-    -   Mobile Wireframe - [View](https://github.com/)
+    - [Mobile](media/Mobile.png)
 
-    -   Contact Us Page Wireframe - [View](https://github.com/)
-
+    - [Tablet](media/Tablet.png)
 ## Features
 
 -   Responsive on all device sizes
@@ -52,6 +47,10 @@ This is the main marketing website for Code Institute. It is designed to be resp
 -   Create profile.
 
 -   Add blog posts and interact with the community.
+
+-   Store itemns in bag with ability to continue viewing.
+
+-   Secure safe checkout procedure.
 
 ## Technologies Used
 
@@ -73,22 +72,28 @@ This is the main marketing website for Code Institute. It is designed to be resp
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
 1. [Balsamiq:](https://balsamiq.com/)
-    - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
+    - Balsamiq was used to create the wireframes during the design process.  
+1. [Django:](https://www.djangoproject.com/)
+    - High-level Python web framework.
 
 ### Lighthouse Testing 
-![Alt text](media/lighthouseTest1.png)
+![Alt text](media/lightouseTest1.png)
 
-![Alt text](media/lighthouseTest2.png)
+![Alt text](media/lightouseTest2.png)
 
 ### Validation Testing 
-![Alt text](media/validatorTest1.png)
-![Alt text](media/validatorTest2.png)
+![Alt text](media/validatorTesting1.png)
 
-![Alt text](media/validatorTest3.png)
-![Alt text](media/validatorTest4.png)
+![Alt text](media/validatorTesting2.png)
+
+![Alt text](media/validatorTesting3.png)
+
+![Alt text](media/validatorTesting4.png)
 
 ![Alt text](media/jstest1.png)
+
 ![Alt text](media/jstest2.png)
+
 ![Alt text](media/jstest3.png)
 
 
@@ -208,24 +213,21 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Code
 
--   The full-screen hero image code came from this [StackOverflow post](https://stackoverflow.com)
-
 -   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
-
--   [MDN Web Docs](https://developer.mozilla.org/) : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found [Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#Pattern_validation)
 
 ### Content
 
--   All content was written by the developer.
+-  All content and and products were made up for hypothetical site.
 
--   Psychological properties of colours text in the README.md was found [here](http://www.colour-affects.co.uk/psychological-properties-of-colours)
 
 ### Media
 
--   All Images were created by the developer.
+-   [Pexels:](https://https://www.pexels.com//)
 
 ### Acknowledgements
 
 -   My Mentor for continuous helpful feedback.
+
+-   Slack community.
 
 -   Tutor support at Code Institute for their support.
