@@ -7,8 +7,8 @@ backcall==0.2.0
 backports.entry-points-selectable==1.1.0
 bandit==1.7.0
 bleach==4.1.0
-boto3==1.21.18
-botocore==1.24.18
+boto3==1.21.21
+botocore==1.24.21
 certifi==2021.5.30
 cffi==1.14.6
 charset-normalizer==2.0.4
@@ -42,7 +42,7 @@ isort==5.9.3
 jedi==0.18.0
 jeepney==0.7.1
 Jinja2==3.0.1
-jmespath==0.10.0
+jmespath==1.0.0
 jsonschema==3.2.0
 jupyter-client==7.0.2
 jupyter-core==4.7.1
