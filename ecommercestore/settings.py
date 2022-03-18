@@ -61,7 +61,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'ecommerce-store.urls'
+ROOT_URLCONF = 'ecommercestore.urls'
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
@@ -113,7 +113,7 @@ ACCOUNT_USERNAME_MIN_LENGTH = 4
 LOGIN_URL = '/accounts/login/'
 LOGIN_REDIRECT_URL = '/'
 
-WSGI_APPLICATION = 'ecommerce-store.wsgi.application'
+WSGI_APPLICATION = 'ecommercestore.wsgi.application'
 
 
 # Database
