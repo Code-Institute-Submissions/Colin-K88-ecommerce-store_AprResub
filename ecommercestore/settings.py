@@ -22,7 +22,8 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
-ALLOWED_HOSTS = [os.environ.get('ecommerce-store1.herokuapp.com')]
+ALLOWED_HOSTS = ['ecommerce-store1.herokuapp.com', 'localhost']
+
 
 
 # Application definition
@@ -121,7 +122,7 @@ WSGI_APPLICATION = 'ecommercestore.wsgi.application'
 
 if 'DATABASE_URL' in os.environ:
     DATABASES = {
-        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'), conn_max_age=600)
+        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
     }
 else:
     DATABASES = {
